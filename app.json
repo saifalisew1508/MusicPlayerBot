@@ -1,0 +1,34 @@
+{
+    "name": "MusicPlayerBot",
+    "logo": "https://te.legra.ph/file/724d3f007bb0a9beed209.jpg",
+    "description": "Simple Telegram Music-Video player bot",
+    "keywords": ["music", "voice chat", "telegram"],
+    "repository": "https://github.com/saifalisew1508/MusicPlayerBot",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Your App ID,  get it from my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Your App Hash, get it from my.telegram.org",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Put Bot Token Of Your Bot, get it from @BotFather",
+            "required": true
+        },
+        "STRING_SESSION": {
+            "description": "Pyrogram String Session",
+            "required": true
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
