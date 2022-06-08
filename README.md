@@ -10,3 +10,10 @@
 ### Get String Session
 
 [![GenerateString](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=black)](https://t.me/YukkiStringBot)
+
+
+### credit 
+```
+https://github.com/MrAdityaXD/AdityaPlayer
+```
+
